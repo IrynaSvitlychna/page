@@ -1,3 +1,11 @@
+:root {
+  --font-family: "PT Sans", sans-serif;
+  --second-family: "Francois One", sans-serif;
+  --third-family: "Farro", sans-serif;
+  --font3: "Staatliches", sans-serif;
+  --font4: "Tourney", sans-serif;
+}
+
 body {
   width: 1200px;
   margin: 0 120px 90px 120px;
@@ -19,63 +27,57 @@ header {
       gap: 50px;
       align-items: baseline;
 
-      p {
-        font-family: Tourney;
-        font-weight: 600;
+      span {
+        font-family: var(--font4);
         font-size: 22px;
+        font-weight: 700;
         line-height: 18px;
-        /* letter-spacing: 4%; */
-        text-align: center;
+      }
+
+      a {
+        font-family: var(--font3);
+        font-weight: 400;
+        font-size: 22px;
+        color: #000000;
       }
     }
   }
 }
 
-nav {
-  font-family: Staatliches;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 100%;
-  /* letter-spacing: 3%; */
-}
-
 h2 {
-  font-family: Francois One;
+  font-family: var(--second-family);
   font-weight: 400;
-  /* font-style: Regular; */
   font-size: 36px;
   line-height: 48px;
-  /* letter-spacing: 4%; */
   text-transform: uppercase;
   margin-top: 70px;
   margin-bottom: 40px;
 }
 
 sup {
-  font-family: Farro;
+  font-family: var(--third-family);
   font-weight: 300;
-  /* font-style: Light; */
   font-size: 30px;
-  line-height: 100%;
-  /* letter-spacing: 4%; */
   text-transform: none;
 }
 
 p {
-  font-family: PT Sans;
+  font-family: var(--font-family);
   font-weight: 400;
-  /* font-style: Regular; */
   font-size: 28px;
   line-height: 48px;
-  letter-spacing: 0%;
+  /* letter-spacing: 0%; */
   margin-bottom: 40px;
 }
 
 span {
-  font-family: PT Sans;
+  font-family: var(--font-family);
   font-weight: 700;
-  font-style: Bold;
   font-size: 28px;
   line-height: 48px;
-  letter-spacing: 0%;
+  /* letter-spacing: 0%; */
+}
+
+text {
+  background-color: #dadada;
 }

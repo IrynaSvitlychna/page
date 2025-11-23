@@ -5,15 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Staatliches&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>KONSTRUCT</title>
 </head>
 
 <body>
   <header>
     <div class="container">
       <div>
-        <p>ENG</p>
-        <nav>DOCUMENTATION/WHO'S USING</nav>
+        <span>ENG</span>
+        <nav>
+          <a href="">DOCUMENTATION</a>
+          <span>/</span>
+          <a href="">WHO'S USING</a>
+        </nav>
       </div>
       <img src="/company-logo-black.svg" alt="KONSTRUCT">
     </div>
@@ -21,7 +30,7 @@
 
   <main>
     <div>
-      <h2>introduction<sup>Chapter 1</sup></h2>
+      <h2>introduction <sup>Chapter 1</sup></h2>
       <p>Welcome to the very start of your React Native journey! If you're looking for environment setup instructions,
         they've
         moved to <u>their own section</u>. Continue reading for an introduction to the documentation, Native Components,
@@ -63,15 +72,16 @@
       </p>
       <p>
         <span>+ JSX.</span> React and React Native use JSX, a syntax that lets you write elements inside JavaScript like
-        so: <Text>Hello, I am your cat!</Text>.
+        so: <text>&lt;Text&gt;Hello, I am your cat!&lt;Text&gt;</text>.
       </p>
       <p>
         The React docs have <u>a comprehensive guide to JSX</u> you can refer to learn even more. Because JSX is
         JavaScript,
         you
         can
-        use variables inside it. Here you are declaring a name for the cat, name, and embedding it with curly braces
-        inside <Text>
+        use variables inside it. Here you are declaring a <text>name</text> for the cat, name, and embedding it with
+        curly braces inside
+        <text>&lt;Text&gt;</text>
       </p>
       <p>
         <span>+ props.</span> Props is short for “properties”.
