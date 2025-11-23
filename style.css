@@ -72,7 +72,6 @@ p {
   font-weight: 400;
   font-size: 28px;
   line-height: 48px;
-  /* letter-spacing: 0%; */
   margin-bottom: 40px;
 }
 
@@ -81,7 +80,6 @@ span {
   font-weight: 700;
   font-size: 28px;
   line-height: 48px;
-  /* letter-spacing: 0%; */
 }
 
 text {
